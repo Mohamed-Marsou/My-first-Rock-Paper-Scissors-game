@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="images/icons8-joystick-48.png""/>
+    <title>ROCK PAPER SCISSORS</title>
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="main-header">
+        <h1>Welcome to Rock Paper Scissors</h1>
+      </div>
+
+      <h2>Chose your move</h2>
+      <p id="keep_track_score">First to win 5 rounds wins the Game 🏆</p>
+      
+      <div class="score_display">
+        <div class="user-side">
+
+          <div class="user_icon">
+            <img src="./images/icons8-user-64.png" alt="">
+          </div>
+
+          <h3>PLAYER SCORE : <span id="player_score">0</span></h3>
+        </div>
+
+        <span></span>
+
+        <div class="com-side">
+          
+          <div class="com-icons">
+            <img src="./images/icons8-computer-64.png" alt="">
+          </div>
+          <h3>COMPUTER SCORE : <span id="computer_score">0</span></h3>
+        </div>
+      </div>
+      
+      <div class="make_ur_move">
+        <div class="rock" dataSelection="Rock">
+          <img  src="./images/icons8-rock-100.png" alt="">
+          <p id="plyRock">Rock</p>
+        </div>
+
+        <div class="paper" dataSelection="Paper">
+          <img  src="./images/icons8-paper-64.png" alt="">
+          <p id="plyPaper">Paper</p>
+        </div>
+
+        <div class="scissors" dataSelection="Scissors">
+          <img  src="./images/icons8-scissor-64.png" alt="">
+          <p id="plyScissors">Scissors</p>
+        </div>
+
+      </div>
+
+    <div class="myfooter">
+      <h2>Copyright &copy; <a href="https://github.com/Mohamed-Marsou">Mohamed Marsou</a> 2022</h2>
+    </div>
+
+    </section>
+    <div class="overlay"></div>
+    <div class="win-lose_window">
+      <div class="main-header">
+        <h1>Rock Paper Scissors</h1>
+      </div>
+      <div class="massage_stt">
+        <p id="winner_stt">CONGRATS YOU WON THE GAME 🥇🥇</p>
+      </div>
+      <div class="rest-btn">
+        <button id="play_again_btn">PLAY AGAIN</button>
+      </div> 
+    </div>
+    <script src="./javaScript/main.js"></script>
+  </body>
+</html>

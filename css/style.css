@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 100%;
+  max-height: 200vh;
+  background-color: rgb(39, 40, 44);
+  position: absolute;
+}
+.main-header {
+  width: 60vw;
+  height: 5.5rem;
+  background-color: aquamarine;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 30px;
+  transform: skew(-25deg, 0deg);
+  font-size: 1rem;
+  font-family: "Press Start 2P", cursive;
+}
+section > h2 {
+  color: aliceblue;
+  text-align: center;
+  margin: 0.5rem 0 0 0;
+  font-style: italic;
+  font-size: 3rem;
+}
+section > p {
+  color: aliceblue;
+  text-align: center;
+  margin: 1rem 0 0 0;
+
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.score_display {
+  width: 80%;
+  height: 40vh;
+  background-color: rgba(41, 43, 79, 0.492);
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+}
+.score_display > span {
+  width: 2px;
+  height: 50%;
+  background-color: azure;
+}
+.score_display > div {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: azure;
+  font-size: 1.2rem;
+}
+.user_icon,
+.com-icons {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user_icon > img,
+.com-icons > img {
+  width: 96px;
+  object-fit: cover;
+}
+
+.make_ur_move {
+  width: 80%;
+  height: 40vh;
+  margin: 1.2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  transition: 0.5s ease-in;
+}
+.make_ur_move > div {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(41, 43, 79, 0.492);
+  border-radius: 20px;
+  cursor: pointer;
+  color: azure;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.make_ur_move div:hover {
+  border: 2px solid aliceblue;
+}
+.myfooter {
+  width: 100%;
+  height: 20vh;
+  background-color: rgba(63, 66, 126, 0.492);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+.overlay {
+  width: 100%;
+  min-height: 200vh;
+  background-color: rgb(32, 32, 39);
+  position: absolute;
+  display: none;
+}
+.win-lose_window {
+  width: 70%;
+  height: 70vh;
+  background-color: rgb(76, 77, 105);
+  position: absolute;
+  border-radius: 20px;
+  top: 50%;
+  left: 15%;
+  color: azure;
+  display: none;
+}
+.massage_stt {
+  width: 100%;
+  height: 8rem;
+  margin: 4rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.massage_stt p {
+  font-size: 1.5rem;
+  font-family: "Press Start 2P", cursive;
+}
+.rest-btn {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  border: 1px solid azure;
+}
+.rest-btn button {
+  width: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 0.8rem;
+  font-family: "Press Start 2P", cursive;
+  color: azure;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+.rest-btn button:hover {
+  background-color: azure;
+  color: rgb(0, 0, 0);
+}
+.myfooter a {
+  color: aliceblue;
+}
